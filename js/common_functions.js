@@ -181,10 +181,10 @@
 	$('.carousel_item_1').owlCarousel({
 	    center: true,
 	    items:1,
-	    loop:false, 
+	    loop:true, 
 	    addClassActive: true,
 	    margin:0,
-	    autoplay:false,
+	    autoplay:true,
 	    autoplayTimeout:3000,
 		autoplayHoverPause:true,
 		animateOut: 'fadeOut',
@@ -243,7 +243,7 @@
 
 	// Carousel items 3
 	$('.carousel_item_3').owlCarousel({    
-	    loop:false,
+	    loop:true,
 	    margin:15,
 	    nav:true,
 	    dots:false,
@@ -266,7 +266,7 @@
 	$('.carousel_testimonials').owlCarousel({
 	 	items:1,
 	    loop:true,
-		autoplay:false,
+		autoplay:true,
 	    animateIn: 'flipInX',
 		margin:40,
     	stagePadding:30,
