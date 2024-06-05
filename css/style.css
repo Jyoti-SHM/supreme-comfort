@@ -1,40 +1,3 @@
-/*
-Theme Name: Paradise
-Theme URI: http://www.ansonika.com/paradise/
-Author: Ansonika
-Author URI: http://themeforest.net/user/Ansonika/
-
-[Table of contents] 
-
-1. SITE STRUCTURE and TYPOGRAPHY
-- 1.0 Preloader
-- 1.1 Typography
-- 1.2 Animations title
-- 1.3 Buttons
-- 1.4 Structure
-
-2. CONTENT
-- 2.1 Home
-- 2.2 About
-- 2.3 Room list
-- 2.4 Room details
-- 2.5 News page
-- 2.6 Contact page
-- 2.7 Error page
-- 2.8 Gallery
-- 2.9 Restaurant
-- 2.10 Advertise modal
-- 2.11 Cookie bar
-
-3. COMMON
-- 3.1 Misc
-- 3.2 Datepicker
-- 3.3 Forms
-- 3.4 Success submit 
-- 3.5 Progess Scroll to top
-- 3.6 Spacing
-- 3.7 Pagination
-- 3.8 Success submit
 
 /*============================================================================================*/
 /* 1.  SITE STRUCTURE and TYPOGRAPHY */
@@ -428,7 +391,7 @@ a.btn_1.outline:hover,
   margin: 0;
   width: 2.6rem;
   height: 2.6rem;
-  background: #978667;
+  background: #a90058;
   border-radius: 1.625rem;
 }
 .btn_4.learn-more .circle .icon {
@@ -494,7 +457,7 @@ a.animated_link::before {
   height: 2px;
   bottom: -5px;
   left: 0;
-  background-color: #24262d;
+  background-color: #007d80;
   transform: scaleX(0);
   transform-origin: top left;
   transition: transform 0.3s ease;
@@ -1103,7 +1066,7 @@ header.fixed_header.sticky .hamburger__inner::after {
 .headroom--not-top .hamburger__inner,
 .headroom--not-top .hamburger__inner::before,
 .headroom--not-top .hamburger__inner::after {
-  background-color: #333;
+  background-color: #007d80;
 }
 
 /* Hamburger with close */
@@ -2156,7 +2119,7 @@ footer ul {
   margin: 0 0 25px 0;
 }
 footer a {
-  color: #ebd7b2;
+  color: #a90058;
 }
 footer a:hover {
   color: #fff;
@@ -2770,7 +2733,7 @@ a.box_cat_rooms .info span:before {
   background-color: #fff;
 }
 a.box_cat_rooms .info span:hover {
-  background-color: #24262d;
+  background-color: transparent;
   border-color: transparent;
 }
 a.box_cat_rooms figure {
@@ -4564,7 +4527,7 @@ textarea.form-control {
   text-align: center;
   line-height: 46px;
   font-size: 24px;
-  color: #999;
+  color: #007d80;
   left: 0;
   top: 0;
   height: 46px;
@@ -4576,13 +4539,13 @@ textarea.form-control {
   transition: all 200ms linear;
 }
 .progress-wrap:hover::after {
-  color: #978667;
+  color: #007d80;
 }
 .progress-wrap svg path {
   fill: none;
 }
 .progress-wrap svg.progress-circle path {
-  stroke: #978667;
+  stroke:#a90058;
   stroke-width: 4;
   box-sizing: border-box;
   -webkit-transition: all 200ms linear;
