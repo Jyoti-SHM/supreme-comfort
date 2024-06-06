@@ -58,7 +58,9 @@
   -o-transition-delay: 1s;
   transition-delay: 1s;
 }
-
+.mgb-35{
+  margin-bottom: 35px;
+}
 [data-loader="circle-side"] {
   position: absolute;
   width: 50px;
