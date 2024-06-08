@@ -2469,7 +2469,7 @@ textarea.form-control-lg {
   padding: 1rem 0.75rem;
   overflow: hidden;
   text-overflow: ellipsis;
-  white-space: nowrap;
+  white-space: nowrap; font-size: 13px;
   pointer-events: none;
   border: 1px solid transparent;
   transform-origin: 0 0;
@@ -2566,7 +2566,7 @@ textarea.form-control-lg {
   line-height: 1.5;
   color: #212529;
   text-align: center;
-  white-space: nowrap;
+  white-space: nowrap; font-size: 13px;
   background-color: #e9ecef;
   border: 1px solid #ced4da;
   border-radius: 0.375rem;
@@ -3225,7 +3225,7 @@ textarea.form-control-lg {
 }
 
 .dropdown-toggle {
-  white-space: nowrap;
+  white-space: nowrap; font-size: 13px;
 }
 .dropdown-toggle::after {
   display: inline-block;
@@ -3477,7 +3477,7 @@ textarea.form-control-lg {
   color: var(--bs-dropdown-link-color);
   text-align: inherit;
   text-decoration: none;
-  white-space: nowrap;
+  white-space: nowrap; font-size: 13px;
   background-color: transparent;
   border: 0;
 }
@@ -3506,7 +3506,7 @@ textarea.form-control-lg {
   margin-bottom: 0;
   font-size: 0.875rem;
   color: var(--bs-dropdown-header-color);
-  white-space: nowrap;
+  white-space: nowrap; font-size: 13px;
 }
 
 .dropdown-item-text {
@@ -3798,7 +3798,7 @@ textarea.form-control-lg {
   font-size: var(--bs-navbar-brand-font-size);
   color: var(--bs-navbar-brand-color);
   text-decoration: none;
-  white-space: nowrap;
+  white-space: nowrap; font-size: 13px;
 }
 .navbar-brand:hover, .navbar-brand:focus {
   color: var(--bs-navbar-brand-hover-color);
@@ -4631,7 +4631,7 @@ textarea.form-control-lg {
   line-height: 1;
   color: var(--bs-badge-color);
   text-align: center;
-  white-space: nowrap;
+  white-space: nowrap; font-size: 13px;
   vertical-align: baseline;
   border-radius: var(--bs-badge-border-radius);
 }
@@ -4788,7 +4788,7 @@ textarea.form-control-lg {
   overflow: hidden;
   color: var(--bs-progress-bar-color);
   text-align: center;
-  white-space: nowrap;
+  white-space: nowrap; font-size: 13px;
   background-color: var(--bs-progress-bar-bg);
   transition: var(--bs-progress-bar-transition);
 }
@@ -6989,7 +6989,7 @@ textarea.form-control-lg {
 .text-truncate {
   overflow: hidden;
   text-overflow: ellipsis;
-  white-space: nowrap;
+  white-space: nowrap; font-size: 13px;
 }
 
 .vr {
