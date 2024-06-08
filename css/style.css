@@ -2121,7 +2121,7 @@ footer ul {
   margin: 0 0 25px 0;
 }
 footer a {
-  color: #a90058;
+  color: #fff;
 }
 footer a:hover {
   color: #fff;
@@ -3523,7 +3523,7 @@ a.box_contents small {
   -ms-transform-origin: 0 0;
   -o-transform-origin: 0 0;
   transform-origin: 0 0;
-  white-space: nowrap;
+  white-space: nowrap; font-size: 13px;
   position: absolute;
   letter-spacing: 2px;
 }
@@ -4252,7 +4252,7 @@ a.box_contents:hover img {
 }
 .marquee .track {
   position: absolute;
-  white-space: nowrap;
+  white-space: nowrap; font-size: 13px;
   will-change: transform;
   animation: marquee 140s linear infinite;
 }
@@ -4836,4 +4836,13 @@ textarea.form-control {
 .icon--order-success svg circle {
   -webkit-animation: checkmark-circle 0.6s ease-in-out backwards;
   animation: checkmark-circle 0.6s ease-in-out backwards;
+}
+
+.whatsapp-icon {
+  position: fixed;
+  left: 30px;
+  bottom: 40px;
+  width: 60px;
+  height: 60px;
+  z-index: 999;
 }
